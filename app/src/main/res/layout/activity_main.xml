@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#135E38"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ver_lista"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="verLista"
+        android:text="Ver Lista" />
+
+    <Button
+        android:id="@+id/botonNuevo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ver_lista"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="ingresarNuevo"
+        android:text="Ingresar Nuevo" />
+
+    <Button
+        android:id="@+id/botonEliminar"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonNuevo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="eliminarComprados"
+        android:text="Eliminar Comprados" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/logo" />
+
+
+</RelativeLayout>
